@@ -1,0 +1,51 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+	letter-spacing: 3px;
+	color: #2d3c49;
+	font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 1px;
+    padding-top: 25px;
+    font-family: Arial;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.cat {
+	width: 100%;
+	height: auto;
+	margin-top: 3vh;
+    -webkit-tap-highlight-color: white;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(88, 105, 119, 0.5);
+}
+
+.clicker {
+    font-family: Arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color:#2d3c49;
+	font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid rgba(171, 180, 189, 0.5);
+    margin-left: 20pxpx;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background: rgba(221, 225, 228, 0.5);
+}
+
+.fa fa-paw {
+    
+}
