@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 h1 {
     text-transform: uppercase;
     text-align: center;
@@ -13,15 +17,15 @@ h1 {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 50px;
+	padding-left: 90px;
 	padding-right: 50px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
-.cat {
-	width: 100%;
-	height: auto;
+.cat_pic {
+    width: auto;
+	height: 100%;
 	margin-top: 3vh;
     -webkit-tap-highlight-color: white;
     border-radius: 10px;
@@ -35,7 +39,7 @@ h1 {
 	color:#2d3c49;
 	font-size: 14px;
     border-radius: 10px;
-    border: 2px solid rgba(171, 180, 189, 0.5);
+    border: 1px solid rgba(171, 180, 189, 0.5);
     margin-left: 20pxpx;
     margin-top: 40px;
     text-align: center;
@@ -44,8 +48,4 @@ h1 {
     height: 100px;
     width: 150px;
     background: rgba(221, 225, 228, 0.5);
-}
-
-.fa fa-paw {
-    
 }
