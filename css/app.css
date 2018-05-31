@@ -15,7 +15,7 @@ h1 {
 }
 
 .container {
-	margin-left: auto;
+	margin-left: 230px;
 	margin-right: auto;
 	padding-left: 90px;
 	padding-right: 50px;
@@ -24,15 +24,24 @@ h1 {
 }
 
 .cat_pic {
-    width: auto;
-	height: 100%;
+    width: 850px;
+	height: 550px;
 	margin-top: 3vh;
     -webkit-tap-highlight-color: white;
     border-radius: 10px;
     box-shadow: 12px 15px 20px 0 rgba(88, 105, 119, 0.5);
 }
 
-.clicker {
+.cat_pic1 {
+    width: 850px;
+	height: 550px;
+	margin-top: 3vh;
+    -webkit-tap-highlight-color: white;
+    border-radius: 10px;
+    box-shadow: 12px 15px 20px 0 rgba(88, 105, 119, 0.5);
+}
+
+.clicker_1, .clicker_2 {
     font-family: Arial,sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -48,4 +57,15 @@ h1 {
     height: 100px;
     width: 150px;
     background: rgba(221, 225, 228, 0.5);
+}
+
+.name {
+    text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #2d3c49;
+	font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1px;
+    padding-top: 25px;
+    font-family: Arial;
 }
